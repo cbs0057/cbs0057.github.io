@@ -34,9 +34,9 @@
     }
 
     .nav-link {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: bold;
-      padding-left: 1.5rem;
+      padding-left: 2.5rem;
       padding-right: 1.5rem;
     }
 
@@ -58,17 +58,42 @@
     <div class="container-fluid">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="about-me.html">About Me</a>
+          <a class="nav-link" href="#" id="aboutMeLink">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="#" id="projectsLink">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="skills.html">Skills</a>
+          <a class="nav-link" href="#" id="skillsLink">Skills</a>
         </li>
       </ul>
     </div>
   </nav>
+
+  <div id="content" class="container mt-5"></div>
+
+  <script>
+    document.getElementById("aboutMeLink").addEventListener("click", function() {
+      document.getElementById("content").innerHTML = 
+	  '<h2>About Me</h2><p>안녕하세요 프론트엔드 개발자를 지망하는 최범수입니다.</p>';
+    });
+
+document.getElementById("projectsLink").addEventListener("click", function() {
+  document.getElementById("content").innerHTML =
+    '<h2>Projects</h2><p>안녕하세요 그동안했던 프로젝트를 ppt로 정리해보았습니다 github링크 https://github.com/cbs0057.</p>' +
+    '<iframe src="https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/Ec7mC8kqoYVNr32QJ7VyLvYBYkmOtOIdS3tgkWLriDB_pQ?e=Me1cAH" width="1280" height="900" frameborder="0" scrolling="no"></iframe>';
+});
+
+
+document.getElementById("skillsLink").addEventListener("click", function() {
+  document.getElementById("content").innerHTML = `
+    <h2>Skills</h2>
+    <p>기술 스택/ 기능 구현 등의 사용 경험이 있는 skill set​</p>
+    <img src="skill.jpg" alt="Your skill image description" />
+  `;
+});
+
+  </script>
 
 </body>
 </html>

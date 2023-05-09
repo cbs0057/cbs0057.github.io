@@ -14,7 +14,7 @@
 
   <section class="container my-5">
     <h2>Personal Information</h2>
-    <p>안녕하세요 프론트엔드 개발자를 지망하는 최범수입니다.</p>
+    <p>Write more detailed information about yourself, including your background, education, and work experience.</p>
 	<button onclick="location.href='index.html'" class="btn btn-primary mt-3">Return to Main Page</button>
 
   </section>
