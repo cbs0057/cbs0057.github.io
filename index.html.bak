@@ -63,27 +63,27 @@
       margin-bottom: 5rem; 
     }
 .thumbnail-button.project1 {
-  background: url('project1.jpg') no-repeat;
+  background: url('project1.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project2 {
-  background: url('project2.jpg') no-repeat;
+  background: url('project2.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project3 {
-  background: url('project3.jpg') no-repeat;
+  background: url('project3.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project4 {
-  background: url('project4.jpg') no-repeat;
+  background: url('project4.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project5 {
-  background: url('project5.jpg') no-repeat;
+  background: url('project5.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project6 {
-  background: url('project6.jpg') no-repeat;
+  background: url('project6.JPG') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project7 {
