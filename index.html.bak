@@ -69,8 +69,25 @@
 .thumbnail-button.project2 {
   background: url('project2.jpg') no-repeat;
   background-size: cover;
-}.thumbnail-button.project3 {
+}
+.thumbnail-button.project3 {
   background: url('project3.jpg') no-repeat;
+  background-size: cover;
+}
+.thumbnail-button.project4 {
+  background: url('project4.jpg') no-repeat;
+  background-size: cover;
+}
+.thumbnail-button.project5 {
+  background: url('project5.jpg') no-repeat;
+  background-size: cover;
+}
+.thumbnail-button.project6 {
+  background: url('project6.jpg') no-repeat;
+  background-size: cover;
+}
+.thumbnail-button.project7 {
+  background: url('project7.jpg') no-repeat;
   background-size: cover;
 }
   </style>
@@ -142,25 +159,25 @@ document.getElementById("projectsLink").addEventListener("click", function() {
     '</div>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'#\'" class="btn btn-primary thumbnail-button project4">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/Ee_P4WJElq1DqEFQAt1oXgoBS4xQfTRdapu3kZqNW3muAQ?e=Bh4yK3\'" class="btn btn-primary thumbnail-button project4">View Project PPT</button>' +
       '<h3>3학년 고급게임 엔진 과제</h3>' +
       '<p>언리얼을 이용한 간단한 디펜스 게임</p>' +
     '</div>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'#\'" class="btn btn-primary thumbnail-button project5">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/ERg99WG7dypOo08CMqKN-Z8B9SUDa8axmEZJVj9FZIJMzA?e=Uuilil\'" class="btn btn-primary thumbnail-button project5">View Project PPT</button>' +
       '<h3>2학년 게임 수학 과제</h3>' +
       '<p>언리얼을 이용한 간단한 게임</p>' +
     '</div>' +
 	
 	'<div class="project-container">' +
-      '<button onclick="window.location.href=\'#\'" class="btn btn-primary thumbnail-button project6">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/ESXZlKu_sPJCt1E1mMjAOwMB09Ye53xhsBk3zZQFD_BFKw?e=movhGD\'" class="btn btn-primary thumbnail-button project6">View Project PPT</button>' +
       '<h3>2학년 알고리즘 과제</h3>' +
       '<p>elo 레이팅 공부</p>' +
     '</div>' +
 	
 	'<div class="project-container">' +
-      '<button onclick="window.location.href=\'#\'" class="btn btn-primary thumbnail-button">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:f:/g/personal/cbs0257_dyu_ac_kr/EicNMvx1n_ZAoGIOPFW-ZREBRNCHQ3s5khUEIV_SjvxOBA?e=JICsdf\'" class="btn btn-primary thumbnail-button project7">View Project PPT</button>' +
       '<h3>2학년 게임 캐릭 디자인 과제</h3>' +
       '<p>3d 캐릭터 모델링</p>' +
     '</div>' 
