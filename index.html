@@ -127,11 +127,16 @@
       });
 	  document.getElementById(id).classList.add('active');
     }
-    document.getElementById("aboutMeLink").addEventListener("click", function() {
-	setActiveNavItem("aboutMeLink");
-      document.getElementById("content").innerHTML = 
-	  '<h2>About Me</h2><p>안녕하세요 프론트엔드 개발자를 지망하는 최범수입니다.</p>';
-    });
+document.getElementById("aboutMeLink").addEventListener("click", function() {
+  setActiveNavItem("aboutMeLink");
+
+  var pdf_link = 'https://drive.google.com/file/d/1MU639aR_mGb2lI0QA4ZtAsHzQB5zcUfB/view?usp=sharing';  
+
+  document.getElementById("content").innerHTML =
+  '<h2>About Me</h2>'+
+  '<iframe src="' + pdf_link + '" style="width:100%; height:600px;" frameborder="0"></iframe>';
+});
+
 
 document.getElementById("projectsLink").addEventListener("click", function() {
   setActiveNavItem("projectsLink");
@@ -141,7 +146,7 @@ document.getElementById("projectsLink").addEventListener("click", function() {
     '<p>아래 버튼을 누르면 해당 항목에 맞는 ppt창으로 이동합니다.</p>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/Ec7mC8kqoYVNr32QJ7VyLvYBYkmOtOIdS3tgkWLriDB_pQ?e=Me1cAH\'" class="btn btn-primary thumbnail-button project1">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/EfsZ332Vy5xIsvZcWlM7NRIBYkFL3SIMwnPOszgLbeGp1g?e=RUgh7l\'" class="btn btn-primary thumbnail-button project1">View Project PPT</button>' +
       '<h3>메이드 인 스페이스</h3>' +
       '<p>4학년 졸업작품</p>' +
     '</div>' +

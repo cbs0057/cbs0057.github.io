@@ -79,7 +79,7 @@
   background-size: cover;
 }
 .thumbnail-button.project5 {
-  background: url('project5.JPG') no-repeat;
+  background: url('project5.jpg') no-repeat;
   background-size: cover;
 }
 .thumbnail-button.project6 {
@@ -127,11 +127,16 @@
       });
 	  document.getElementById(id).classList.add('active');
     }
-    document.getElementById("aboutMeLink").addEventListener("click", function() {
-	setActiveNavItem("aboutMeLink");
-      document.getElementById("content").innerHTML = 
-	  '<h2>About Me</h2><p>안녕하세요 프론트엔드 개발자를 지망하는 최범수입니다.</p>';
-    });
+document.getElementById("aboutMeLink").addEventListener("click", function() {
+  setActiveNavItem("aboutMeLink");
+
+  var pdf_link = 'https://drive.google.com/file/d/1MU639aR_mGb2lI0QA4ZtAsHzQB5zcUfB/view?usp=sharing';  
+
+  document.getElementById("content").innerHTML =
+  '<h2>About Me</h2>'+
+  '<iframe src="' + pdf_link + '" style="width:100%; height:600px;" frameborder="0"></iframe>';
+});
+
 
 document.getElementById("projectsLink").addEventListener("click", function() {
   setActiveNavItem("projectsLink");
