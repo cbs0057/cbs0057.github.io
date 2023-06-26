@@ -19,6 +19,7 @@
       text-align: center;
       height: auto;
 	  background-color: #2D2D2D;
+	  padding: 2rem 0;
     }
     iframe, img {
       max-width: 100%;
@@ -135,11 +136,10 @@
 document.getElementById("aboutMeLink").addEventListener("click", function() {
   setActiveNavItem("aboutMeLink");
 
-  var pdf_link = 'https://drive.google.com/file/d/1MU639aR_mGb2lI0QA4ZtAsHzQB5zcUfB/view?usp=sharing';  
 
   document.getElementById("content").innerHTML =
   '<h2>About Me</h2>'+
-  '<iframe src="' + pdf_link + '" style="width:100%; height:600px;" frameborder="0"></iframe>';
+  '<iframe src="' https://drive.google.com/file/d/1MU639aR_mGb2lI0QA4ZtAsHzQB5zcUfB/preview '" style="width:100%; height:600px;" frameborder="0"></iframe>';
 });
 
 
