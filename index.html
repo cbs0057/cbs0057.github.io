@@ -115,9 +115,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#" id="projectsLink">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="skillsLink">Skills</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -139,7 +136,7 @@ document.getElementById("aboutMeLink").addEventListener("click", function() {
 
   document.getElementById("content").innerHTML =
     '<h2>About Me</h2>'+
-    '<iframe src="https://drive.google.com/file/d/1MU639aR_mGb2lI0QA4ZtAsHzQB5zcUfB/preview" style="width:100%; height:600px;" frameborder="0"></iframe>';
+    '<iframe src="https://drive.google.com/file/d/1liIFAjK8keD5vZln-r5s4yWE1NBNNbh5/view?usp=sharing" style="width:100%; height:600px;" frameborder="0"></iframe>';
 });
 
 
@@ -147,29 +144,29 @@ document.getElementById("projectsLink").addEventListener("click", function() {
   setActiveNavItem("projectsLink");
   document.getElementById("content").innerHTML =
     '<h2>Project</h2>' +
-    '<p>안녕하세요 그동안 했던 프로젝트를 항목마다 ppt로 나누었습니다</p>' +
-    '<p>아래 버튼을 누르면 해당 항목에 맞는 ppt창으로 이동합니다.</p>' +
+    '<p>안녕하세요 그동안 했던 프로젝트를 항목마다 문서로 나누었습니다</p>' +
+    '<p>아래 버튼을 누르면 해당 항목에 맞는 창으로 이동합니다.</p>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/EfsZ332Vy5xIsvZcWlM7NRIBYkFL3SIMwnPOszgLbeGp1g?e=RUgh7l\'" class="btn btn-primary thumbnail-button project1">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://drive.google.com/file/d/1qPTYwfv1bakXjvC2-mhLcZ4wiSzQOfL7/view?usp=sharing\'" class="btn btn-primary thumbnail-button project1">View Project PPT</button>' +
       '<h3>메이드 인 스페이스</h3>' +
       '<p>4학년 졸업작품</p>' +
     '</div>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/ET2d0Xsrz05AvZUfouZaAT0BP7tRPgsDzZ_c04eCGYrK7A?e=KnZMyh\'" class="btn btn-primary thumbnail-button project2">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://drive.google.com/file/d/1CeSiBd_PIbyum6obvP6wZ515CdhttE6X/view?usp=sharing\'" class="btn btn-primary thumbnail-button project2">View Project PPT</button>' +
       '<h3>Cucinare</h3>' +
       '<p>2022 ggc 제출을 목표로 하여 만든 팀 게임</p>' +
     '</div>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/ESkaEDFK5x1DtM64UVYbhuQBAofcet9cqGjPCLYkSG8ZNw?e=CL6OQs\'" class="btn btn-primary thumbnail-button project3">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://drive.google.com/file/d/1kY6HqhuefqMmSXMDHUNGbRm86JoL9ymb/view?usp=sharing\'" class="btn btn-primary thumbnail-button project3">View Project PPT</button>' +
       '<h3>베타의 모험</h3>' +
       '<p>2021 ggc 제출로 목표로 하여 만든 팀 게임</p>' +
     '</div>' +
 
     '<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/Ee_P4WJElq1DqEFQAt1oXgoBS4xQfTRdapu3kZqNW3muAQ?e=Bh4yK3\'" class="btn btn-primary thumbnail-button project4">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://drive.google.com/file/d/195T2TWtvYqic5nKrB4Z8dumyOF0glH9r/view?usp=sharing\'" class="btn btn-primary thumbnail-button project4">View Project PPT</button>' +
       '<h3>3학년 고급게임 엔진 과제</h3>' +
       '<p>언리얼을 이용한 간단한 디펜스 게임</p>' +
     '</div>' +
@@ -181,7 +178,7 @@ document.getElementById("projectsLink").addEventListener("click", function() {
     '</div>' +
 	
 	'<div class="project-container">' +
-      '<button onclick="window.location.href=\'https://dyuackr-my.sharepoint.com/:p:/g/personal/cbs0257_dyu_ac_kr/ESXZlKu_sPJCt1E1mMjAOwMB09Ye53xhsBk3zZQFD_BFKw?e=movhGD\'" class="btn btn-primary thumbnail-button project6">View Project PPT</button>' +
+      '<button onclick="window.location.href=\'https://drive.google.com/file/d/16Q5t4LobezR2Ssb_vL6Eun8iN1NLW6ap/view?usp=sharing\'" class="btn btn-primary thumbnail-button project6">View Project PPT</button>' +
       '<h3>2학년 알고리즘 과제</h3>' +
       '<p>elo 레이팅 공부</p>' +
     '</div>' +
@@ -195,18 +192,6 @@ document.getElementById("projectsLink").addEventListener("click", function() {
 });
 
 
-
-
-
-document.getElementById("skillsLink").addEventListener("click", function() {
-setActiveNavItem("skillsLink");
-  document.getElementById("content").innerHTML = `
-    <h2>Skills</h2>
-    <p>기술 스택/ 기능 구현 등의 사용 경험이 있는 skill set​</p>
-    <img src="skill.jpg" alt="Your skill image description" />
-  `;
-});
-document.getElementById("aboutMeLink").click();
   </script>
 
 </body>
